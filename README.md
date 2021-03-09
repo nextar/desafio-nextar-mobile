@@ -13,7 +13,7 @@ Quais dúvidas precisamos responder nesta etapa:
 - Como você irá gerir o estado do seu app?
 
 
-E para ajudá-lo a respondê-las, é importante que você na segunda etapa com as seguintes features já desenvolvidas: 
+## O app
 
 - Tela de splash
   - A sua Splash deve conter uma animação simples a sua escolha;
