@@ -41,20 +41,20 @@ Obs: As vendas devem ser recebidas a partir do nosso simulador de vendas que pod
 
 ## Critérios de Avaliação
 Os seguintes critérios serão usados para avaliar o seu código:
-- Legibilidade
-- Cuprimento do escopo
-- Organização do código (camadas bem definidas. Ex: apresentação não deve conter regras de negócio)
-- Existência e quantidade de bugs e gambiarras
-- Documentação
-- Responsividade e comportamento em diversas telas
-- Gestão de estado (BloC, Mobx, etc.)
+- Legibilidade;
+- Cuprimento do escopo;
+- Organização do código (camadas bem definidas. Ex: apresentação não deve conter regras de negócio);
+- Existência e quantidade de bugs e gambiarras;
+- Documentação;
+- Responsividade e comportamento em diversas telas;
+- Gestão de estado (BloC, Mobx, etc.);
 
 
 ### Bônus
-- CI/CD
+- CI/CD;
 - Testes unitários;
-- Contexto e cadência dos commits.
-- Fazer efeitos de transição na tela de introdução
+- Contexto e cadência dos commits;
+- Animações implicitas;
 
 
 ## Outras informações
