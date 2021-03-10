@@ -1,16 +1,8 @@
-# Desafio Nextar Mobile
+# Desafio Nextar Mobile Flutter
 
 Bem-vindo ao desafio mobile da Nextar.
 
 Nesta etapa queremos ver suas habilidades técnicas. Este é o momento que você terá para pensar no problema a ser resolvido e em como você irá arquitetar seu app para isso. 
-
-Quais dúvidas precisamos responder nesta etapa:
-
-- Quais as camadas necessárias?
-- Como será a separação entre elas?
-- MVC? MVVM? Clean Code? etc...
-- Quais as bibliotecas e frameworks a serem usados?
-- Como você irá gerir o estado do seu app?
 
 
 ## O app
@@ -19,24 +11,24 @@ Quais dúvidas precisamos responder nesta etapa:
   - A sua Splash deve conter uma animação simples a sua escolha;
 
 - Tela de login:
-  - tentativas de login com sucessso e erro, informando para o usuário de forma agradável: login e senha inválidos, campos não preenchidos e requisito de senha inválidos (mínimo 6 caracteres)
+  - Logar o usuário em nossa Api;
+  - Informar para o usuário de forma agradável: login e senha inválidos, campos não preenchidos e requisito de senha inválidos (mínimo 6 caracteres);
   - Após login com sucesso, navegar para uma tela apenas para clientes logados;
 
 - Tela da timeline
-  - Exibir em tempo real e ordenada as vendas recebidas por uma conexão websocket. Devem constar nessa tela todas as vendas de todas as filiais no formato de lista infinita;
+  - Exibir ordenado por data as vendas recebidas por nossa Api. Devem constar nessa tela cards com a data/hora, valor e nome da filial que fez a venda;
 
-- Tela de clientes
-  - Exibir em tempo real todos os clientes que estão efetuando compras. Os cards devem conter o nome do cliente e o valor total das compras.
-  - Ordenação por A-Z, Z-A, maior e menor valor total de compras;
+- Tela de detalhes
+  - Ao clicar em algum card da timeline exibir uma tela de detalhes daquela compra recebida pela Api.
 
 
-Obs: As vendas devem ser recebidas a partir do nosso simulador de vendas que pode ser acessado usando docker com o seguinte comando: docker run -p 8080:8080 nextar/vendasmock. O fluxo de vendas está no endpoint /sales.  Importante: este simulador de cotações não responde ao protocolo HTTP, apenas websocket.
+Obs: Os endpoints da Api estão disponíveis em https://...
 
 
 ## Requisitos
-- O projeto deve ser publicado em um repositório público no github.com, bitbucket.org ou gitlab.com e compartilhado com o time da Nextar;
-- README com instruções de como instalar as dependências do projeto, de como rodar a aplicação;
 - Deve ser desenvolvido em Flutter;
+- O projeto deve ser publicado em um repositório público no github.com, bitbucket.org ou gitlab.com e compartilhado com o time da Nextar;
+- README com instruções de como instalar as dependências do projeto, qual versão do Flutter utilizar e quaisquer outras instruções pertine;
 
 
 ## Critérios de Avaliação
@@ -47,11 +39,10 @@ Os seguintes critérios serão usados para avaliar o seu código:
 - Existência e quantidade de bugs e gambiarras;
 - Documentação;
 - Responsividade e comportamento em diversas telas;
-- Gestão de estado (BloC, Mobx, etc.);
+- Gestão de estado;
 
 
 ### Bônus
-- CI/CD;
 - Testes unitários;
 - Contexto e cadência dos commits;
 - Animações implicitas;
