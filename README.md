@@ -7,27 +7,34 @@ Nesta etapa queremos ver suas habilidades técnicas. Este é o momento que você
 
 ## O app
 
-- Tela de splash
+Este app deverá conter uma representação de cadastro de produtos. Deve ser possível que se adicione, edite e remova itens da lista de produtos. Todos os dados devem ser salvos localmente.
+
+Abaixo seguem as diretrizes das telas a serem implementadas.
+
+- splash:
   - A sua Splash deve conter uma animação simples a sua escolha;
+  - Se o usuário já tiver feito login anteriormente após a splash ele deve ser redirecionado direto pra home;
 
-- Tela de login:
-  - Logar o usuário em nossa Api;
+- login:
   - Informar para o usuário de forma agradável: login e senha inválidos, campos não preenchidos e requisito de senha inválidos (mínimo 6 caracteres);
-  - Após login com sucesso, navegar para uma tela apenas para clientes logados;
+  - Após login com sucesso, persistir os dados de login localmente e navegar para a home;
 
-- Tela da timeline
-  - Exibir ordenado por data as vendas recebidas por nossa Api. Devem constar nessa tela cards com a data/hora, valor e nome da filial que fez a venda;
+- Home:
+  - Exibir os cards de produtos já adicionados;
+  - Opção de filtrar por: Data, preço e ordem alfabética;
+  - Ao clicar em algum card navegar para a tela de edição do mesmo;
+  - Opção de adicionar um produto;
+  - Opção de deltar o produto direto pelo card;
 
-- Tela de detalhes
-  - Ao clicar em algum card da timeline exibir uma tela de detalhes daquela compra recebida pela Api.
-
-
-Obs: Os endpoints da Api estão disponíveis em https://...
+- Edição / Criação:
+  - Os dados do produto são: Nome (campo de preenchimento obrigatório), preço, quantidade em estoque e código (campo de preenchimento obrigatório);
+  - O botão de salvar só deve ser habilitado após o preenchimento dos campos obrigatórios;
+  - Opção de deletar o produto caso seja uma edição;
 
 
 ## Requisitos
 - Deve ser desenvolvido em Flutter;
-- O projeto deve ser publicado em um repositório público no github.com, bitbucket.org ou gitlab.com e compartilhado com o time da Nextar;
+- O projeto deve ser publicado em um repositório no github.com, bitbucket.org ou gitlab.com e compartilhado com o time da Nextar;
 - README com instruções de como instalar as dependências do projeto, qual versão do Flutter utilizar e quaisquer outras instruções pertine;
 
 
@@ -45,13 +52,9 @@ Os seguintes critérios serão usados para avaliar o seu código:
 ### Bônus
 - Testes unitários;
 - Contexto e cadência dos commits;
-- Animações implicitas;
-
-
-## Outras informações
-- Dentro das pastas assets e telas colocamos alguns prints e recursos que podem ser usados em seu projeto. Fique a vontade para seguir com as nossas sugestões... ou não :relaxed:
+- Imagens dos produtos;
+- Paginação da lista de produtos da home;
 
 
 ## Dúvidas
-Em caso de dúvidas entre em contato conosco pelo nosso email: desafio@nextar.com.br
-Sugestões de telas na pasta
+Em caso de dúvidas entre em contato conosco pelo email: caio@nextar.com.br
