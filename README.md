@@ -7,7 +7,7 @@ Nesta etapa queremos ver suas habilidades técnicas. Este é o momento que você
 
 ## O app
 
-Este app deverá conter uma representação de cadastro de produtos. Deve ser possível que se adicione, edite e remova itens da lista de produtos. Todos os dados devem ser salvos localmente.
+Este app deverá conter uma representação de cadastro de produtos. Deve ser possível que se adicione, edite e remova itens da lista de produtos. Todos os dados devem ser salvos localmente. O layout é livre, dê asas a sua criatividade 🪂!
 
 Abaixo seguem as diretrizes das telas a serem implementadas.
 
@@ -46,6 +46,7 @@ Os seguintes critérios serão usados para avaliar o seu código:
 - Existência e quantidade de bugs e gambiarras;
 - Documentação;
 - Responsividade e comportamento em diversas telas;
+- Arquitetura: MVC, MVVM, Clean...;
 - Gestão de estado;
 
 
