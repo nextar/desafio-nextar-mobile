@@ -34,7 +34,7 @@ Abaixo seguem as diretrizes das telas a serem implementadas.
 
 ## Requisitos
 - Deve ser desenvolvido em Flutter;
-- O projeto deve ser publicado em um repositório no github.com, bitbucket.org ou gitlab.com e compartilhado com o time da Nextar;
+- O projeto deve ser publicado em um repositório no github.com, bitbucket.org ou gitlab.com e compartilhado com time da Nextar;
 - README com instruções de como instalar as dependências do projeto, qual versão do Flutter utilizar e quaisquer outras instruções pertine;
 
 
