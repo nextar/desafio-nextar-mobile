@@ -20,7 +20,7 @@ Abaixo seguem as diretrizes das telas a serem implementadas.
   - Após login com sucesso, persistir os dados de login localmente e navegar para a home;
 
 - Home:
-  - Exibir os cards de produtos já adicionados;
+  - Exibir os cards de produtos já adicionados pelo usuário em questão;
   - Opção de filtrar por: Data, preço e ordem alfabética;
   - Ao clicar em algum card navegar para a tela de edição do mesmo;
   - Opção de adicionar um produto;
