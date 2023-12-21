@@ -1,6 +1,6 @@
 # Desafio Nextar Mobile Flutter
 
-Bem-vindo ao desafio mobile da Nextar.
+Boas-vindas ao desafio mobile da Nextar.
 
 Nesta etapa queremos ver suas habilidades técnicas. Este é o momento que você terá para pensar no problema a ser resolvido e em como você irá arquitetar seu app para isso. 
 
