@@ -58,4 +58,4 @@ Os seguintes critérios serão usados para avaliar o seu código:
 
 
 ## Dúvidas
-Em caso de dúvidas entre em contato conosco pelo email: matheus.macari@nextar.com.br ou joaopedro@nextar.com.br
+Em caso de dúvidas entre em contato conosco pelo email: matheus.macari@nextar.com.br ou richard@nextar.com.br
